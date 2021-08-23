@@ -1,0 +1,16 @@
+{
+  "pipeline": {
+    "name": "clean"
+  },
+  "description": "Clean the data",
+  "transform": {
+    "cmd": ["node", "/index.js"],
+    "image": "pachyderm-clean"
+  },
+  "input": {
+    "pfs": {
+      "repo": "data",
+      "glob": "/*"
+    }
+  }
+}

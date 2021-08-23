@@ -1,0 +1,16 @@
+{
+  "pipeline": {
+    "name": "markdown"
+  },
+  "description": "Get the cleaned data and create a markdown file",
+  "transform": {
+    "cmd": ["node", "/index.js"],
+    "image": "pachyderm-markdown"
+  },
+  "input": {
+    "pfs": {
+      "repo": "clean",
+      "glob": "/*"
+    }
+  }
+}
