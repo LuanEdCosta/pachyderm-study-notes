@@ -50,8 +50,8 @@ From GitHub:
 
 ## :thinking: Necessary Knowledge
 
-- Basic of Terminal commands or `Copy` and `Paste` :laughing:
-- Docker
+- Basic of Terminal commands or `Copy` and `Paste` :laughing:.
+- Docker.
 - Minikube or Kind to run locally. For production you need to know how to use Kubernetes.
 
 ## :rocket: Setup Local Environment
